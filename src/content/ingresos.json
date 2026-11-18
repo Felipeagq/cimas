@@ -1,0 +1,48 @@
+{
+  "heroImage": "/images/cimas-ingresos-3m-hd-impresion-scaled.webp",
+  "heading": "SOLICITUD DE ADHESIÓN",
+  "subheading": "Ingresar a CIMAS",
+  "intro": "Toda Potencia Masónica que desee integrar la Confederación Interamericana de Masonería Simbólica – CIMAS, deberá cumplir con los siguientes requisitos (de acuerdo al Reglamento de CIMAS):",
+  "requirements": [
+    {
+      "number": "1)",
+      "text": "Tener como mínimo 5 años de existencia activa y comprobada a partir de su fundación."
+    },
+    {
+      "number": "2)",
+      "text": "Tener Personería Jurídica por sí, o a través de una Asociación sin fines de lucro reconocida, con estatutos legalmente aprobados.",
+      "note": "Nota: Situaciones excepcionales al respecto de este punto, serán estudiadas y resueltas por la Asamblea de CIMAS."
+    },
+    {
+      "number": "3)",
+      "text": "Presentar un Documento oficial de la Potencia Masónica Solicitante (Decreto – Resolución, etc.), firmado por sus Autoridades legítimas, adhiriendo oficialmente a la Declaración de Principios de CIMAS."
+    },
+    {
+      "number": "4)",
+      "text": "Presentar la Constitución y Reglamentos Generales y copia de los Rituales de los tres Grados Simbólicos de Aprendiz, Compañero y Maestro."
+    },
+    {
+      "number": "5)",
+      "text": "Llenar el Formulario de Ingreso."
+    },
+    {
+      "number": "6)",
+      "text": "Posteriormente, en fecha a convenir, se le realizará a la Potencia solicitante una encuesta in situ."
+    }
+  ],
+  "form": {
+    "heading": "Formulario de solicitud de Adhesión a C∴I∴MA∴S∴",
+    "text": "El siguiente formulario es de uso exclusivo para Potencias Masónicas. Como forma de establecer contacto en vista de solicitar la adhesión a CIMAS, puede descargar el formulario disponible a continuación:",
+    "strong": "Tiene que imprimir el formulario, llenarlo, escanearlo y enviárnoslo.",
+    "downloads": [
+      {
+        "label": "Descargar Formulario (PDF)",
+        "href": "/documentos/solicitud-adhesion-pdf-cimas.zip"
+      },
+      {
+        "label": "Descargar Formulario (WORD)",
+        "href": "/documentos/solicitud-adhesion-word-cimas.zip"
+      }
+    ]
+  }
+}

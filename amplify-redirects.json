@@ -1,0 +1,56 @@
+[
+  {
+    "source": "/PDF/REGLAMENTO-GENERAL-CIMAS.pdf",
+    "target": "/documentos/reglamento-general-cimas.pdf",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/wp-content/uploads/2022/09/DECLARACION-Y-PRINCIPIOS.pdf",
+    "target": "/documentos/declaracion-y-principios.pdf",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/wp-content/uploads/2026/09/ARGAMASA-REVISTA-N1.pdf",
+    "target": "/documentos/argamasa-revista-n1.pdf",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/wp-content/uploads/2026/09/CONFERENCE-INTERNATIONALE-GODF-CIMAS-17-05-2025-FR-ES-EN.pdf",
+    "target": "/documentos/conference-internationale-godf-cimas-17-05-2025-fr-es-en.pdf",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/wp-content/uploads/2026/09/PRESENTACION-RUTA-100.pdf",
+    "target": "/documentos/presentacion-ruta-100.pdf",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/wp-content/uploads/2026/09/Programa-CIMAS-FASCREAA-CCJEHA-ES.pdf",
+    "target": "/documentos/programa-cimas-fascreaa-ccjeha-es.pdf",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/wp-content/uploads/2026/09/SOLICITUD-ADHESION-PDF-CIMAS.zip",
+    "target": "/documentos/solicitud-adhesion-pdf-cimas.zip",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/wp-content/uploads/2026/09/SOLICITUD-ADHESION-WORD-CIMAS.zip",
+    "target": "/documentos/solicitud-adhesion-word-cimas.zip",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/<*>",
+    "target": "/404.html",
+    "status": "404",
+    "condition": null
+  }
+]

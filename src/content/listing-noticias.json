@@ -1,0 +1,136 @@
+{
+  "heroImage": "/images/cimas-noticias-3m-hd-impresion-scaled.webp",
+  "heading": null,
+  "cards": [
+    {
+      "slug": "boletin-de-prensa-cimas-del-29-de-agosto-al-01-de-septiembre-de-2018",
+      "title": "Boletín de prensa CIMAS del 29 de agosto al 01 de septiembre de 2018",
+      "date": "1 Sep 2018",
+      "categories": [
+        "Boletín Informativo",
+        "Noticias"
+      ],
+      "image": "/images/regalo-500px-400x250-1.jpg",
+      "imageAlt": "Boletín de prensa",
+      "excerpt": "Boletín de prensa CIMAS del 29 de agosto al 01 de septiembre de 2018 01 de Septiembre del 2018"
+    },
+    {
+      "slug": "decimo-tercer-aniversario-de-la-logia-luz-de-colombia-no-1-del-oriente-central-de-colombia-sede-bogota-boletin-informativo",
+      "title": "Décimo Tercer Aniversario de la Logia Luz de Colombia Nº 1 del Oriente Central de Colombia, sede Bogotá – Boletín Informativo",
+      "date": "1 Sep 2018",
+      "categories": [
+        "Boletín Informativo",
+        "Noticias"
+      ],
+      "image": "/images/decimo-tercer-aniversario-logia-luz-bogota-colombia-500px-400x250-1.jpg",
+      "imageAlt": "Décimo Tercer Aniversario",
+      "excerpt": "Décimo Tercer Aniversario de la Logia Luz de Colombia Nº 1 del Oriente Central de Colombia, sede Bogotá 01 de Septiembre del 2018"
+    },
+    {
+      "slug": "viaje-a-trujillo-peru-boletin-informativo",
+      "title": "Viaje a Trujillo (Perú) – Boletín Informativo",
+      "date": "17 May 2018",
+      "categories": [
+        "Boletín Informativo",
+        "Noticias"
+      ],
+      "image": "/images/trujillo-563215-1920-lorettalynn-pixabay-500px-400x250-1.jpg",
+      "imageAlt": "Viaje a Trujillo",
+      "excerpt": "Viaje a Trujillo (Perú) – Boletín Informativo 17 de Mayo del 2018"
+    },
+    {
+      "slug": "encuentro-con-las-hermanas-de-la-a-r-l-s-ave-fenix",
+      "title": "Encuentro con las Hermanas de la A:.R:.L:.S:. Ave Fénix",
+      "date": "16 May 2018",
+      "categories": [
+        "Ingresos",
+        "Noticias"
+      ],
+      "image": "/images/qqdas-hhnas-500px-400x250-1-1.jpg",
+      "imageAlt": "Hermanas Ave Fénix",
+      "excerpt": "Encuentro con las Hermanas de la A:.R:.L:.S:. Ave Fénix 16 de Mayo del 2018"
+    },
+    {
+      "slug": "informe-de-la-visita-a-la-muy-respetable-gran-logia-del-norte-de-peru",
+      "title": "Informe de la visita a la muy respetable Gran Logia del Norte de Perú",
+      "date": "15 May 2018",
+      "categories": [
+        "Ingresos",
+        "Noticias"
+      ],
+      "image": "/images/logia-peru-ecuador-400x250-1.jpg",
+      "imageAlt": "Gran Logia Norte de Perú",
+      "excerpt": "15 de Mayo del 2018"
+    },
+    {
+      "slug": "agradecido-taf-a-la-grande-loja-unida-do-parana",
+      "title": "Agradecido TAF a la Grande LOJA UNIDA DO PARANÁ",
+      "date": "6 Abr 2018",
+      "categories": [
+        "Ingresos",
+        "Noticias"
+      ],
+      "image": "/images/portico-500px-400x250-1.jpg",
+      "imageAlt": "Loja Unida do Paraná",
+      "excerpt": "Agradecido TAF a la Grande LOJA UNIDA DO PARANÁ 6 de Abril del 2018"
+    },
+    {
+      "slug": "agradecido-taf-a-lagran-logia-patriotica-de-peru",
+      "title": "Agradecido TAF a la Gran Logia PATRIOTICA DE PERU",
+      "date": "6 Abr 2018",
+      "categories": [
+        "Ingresos",
+        "Noticias"
+      ],
+      "image": "/images/gran-logia-patriotica-de-peru-500px-400x250-1.jpg",
+      "imageAlt": "Patriotica de Peru",
+      "excerpt": "Agradecido TAF a la Gran Logia PATRIOTICA DE PERU 6 de Abril del 2018"
+    },
+    {
+      "slug": "la-gran-logia-constitucional-del-peru",
+      "title": "La Gran Logia Constitucional del Perú",
+      "date": "6 Abr 2018",
+      "categories": [
+        "Ingresos",
+        "Noticias"
+      ],
+      "image": "/images/gran-logia-peru-500px-400x250-1.jpg",
+      "imageAlt": "Constitucional del Peru",
+      "excerpt": "La Gran Logia Constitucional del Perú 6 de Abril del 2018"
+    },
+    {
+      "slug": "dialogo-por-la-unidad-masonica-americana-cimas-comam-2",
+      "title": "Dialogo por la Unidad Masónica Americana CIMAS – COMAM",
+      "date": "26 Mar 2018",
+      "categories": [
+        "Encuentros",
+        "Noticias"
+      ],
+      "image": "/images/curitiba-2674721-1920-marcoseduardo-pixabay-500px-400x250-1.jpg",
+      "imageAlt": "Dialogo Unidad Masonica",
+      "excerpt": "Dialogo por la Unidad Masónica Americana CIMAS – COMAM 26 de Marzo del 2018"
+    },
+    {
+      "slug": "69-aniversario-de-la-declaraciondel-dia-de-los-derechos-humanos",
+      "title": "69 Aniversario de la Declaración del día de los Derechos Humanos",
+      "date": "7 Dic 2017",
+      "categories": [
+        "Entradas"
+      ],
+      "image": "/images/declaracion-oficial-derecho-hombre-1789-low-400x250-1.jpg",
+      "imageAlt": "Derechos Humanos",
+      "excerpt": "69 Aniversario de la Declaración del día de los Derechos Humanos 7 de Diciembre del 2017"
+    },
+    {
+      "slug": "29o-aniversario-de-la-augusta-respetable-logia-simbolice-mixta-nueva-luz-no3",
+      "title": "29o Aniversario de la Augusta Respetable Logia Simbolice Mixta NUEVA LUZ No3",
+      "date": "27 Nov 2017",
+      "categories": [
+        "Entradas"
+      ],
+      "image": "/images/cuenca-extracto-400x250-1.jpg",
+      "imageAlt": "Nueva Luz No3",
+      "excerpt": "29o Aniversario de la Augusta Respetable Logia Simbolice Mixta NUEVA LUZ No3 Cuenca – Ecuador, El 27 de Noviembre del 2017 Aniversario de A:.R:.L:.S:. Nueva Luz No3"
+    }
+  ]
+}

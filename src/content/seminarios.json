@@ -1,0 +1,129 @@
+{
+  "heroImage": "/images/cimas-capacitacion-final-3m-hd-impresion-scaled.webp",
+  "featured": [
+    {
+      "title": "Presentación Ruta 100",
+      "description": "Presentación oficial de la Ruta 100 en formato PDF para su descarga y consulta.",
+      "image": "/images/captura-de-pantalla-2026-09-18-a-las-11-27-15-p-m.webp",
+      "imageAlt": "Presentación Ruta 100",
+      "href": "/documentos/presentacion-ruta-100.pdf",
+      "cta": "Descargar PDF"
+    },
+    {
+      "title": "Confédération Interaméricaine de la Maçonnerie Symbolique (C\\I\\MA\\S\\) et le Grand Orient de France",
+      "description": "Documento oficial conjunto entre CIMAS y el Gran Orient de France.",
+      "image": "/images/captura-de-pantalla-2026-09-18-a-las-11-33-18-p-m.webp",
+      "imageAlt": "Confédération Interaméricaine",
+      "href": "/documentos/conference-internationale-godf-cimas-17-05-2025-fr-es-en.pdf",
+      "cta": "Descargar PDF"
+    }
+  ],
+  "items": [
+    {
+      "kind": "conversatorio",
+      "title": "Encuentro CIMAS-GODF 2024",
+      "text": "En el mes de marzo de 2024 la Confederación Interamericana de Masonería Simbólica y el Gran Oriente de Francia llevaron a cabo un conversatorio conjunto:",
+      "quote": "«ESTADO DE DERECHO Y LIBERTADES PUBLICAS EN AMÉRICA LATINA Y EL CARIBE»",
+      "links": [
+        {
+          "label": "Video en español",
+          "href": "https://youtu.be/WjdUnbF4a1A"
+        },
+        {
+          "label": "Video en francés",
+          "href": "https://youtu.be/1T9PzvY76wo"
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "4to Encuentro CIMAS",
+      "year": "2021",
+      "image": "/images/etica-masonica.webp",
+      "imageAlt": "4to Encuentro CIMAS",
+      "href": "https://www.youtube.com/watch?v=3Rb_3BmFTVU",
+      "cta": "Ver transmisión"
+    },
+    {
+      "kind": "event",
+      "title": "1er Encuentro CIMAS IHM",
+      "year": "2020",
+      "image": "/images/bocetoihm.jpg",
+      "imageAlt": "1er Encuentro CIMAS IHM",
+      "href": "https://www.youtube.com/watch?v=OIKF-kwxO6o",
+      "cta": "Ver transmisión"
+    },
+    {
+      "kind": "event",
+      "title": "2do Encuentro CIMAS RRC",
+      "year": "2020",
+      "image": "/images/boceto2brr.jpg",
+      "imageAlt": "2do Encuentro CIMAS RRC",
+      "href": "https://www.youtube.com/watch?v=ebdPqeFE4VU",
+      "cta": "Ver transmisión"
+    },
+    {
+      "kind": "event",
+      "title": "3er Encuentro CIMAS ET",
+      "year": "2020",
+      "image": "/images/folleto-3er-scaled-1.webp",
+      "imageAlt": "3er Encuentro CIMAS ET",
+      "href": "https://www.youtube.com/watch?v=Fd2qzwT2AIY",
+      "cta": "Ver transmisión"
+    },
+    {
+      "kind": "seminar",
+      "title": "1er Seminario CIMAS – 2020",
+      "topic": "Masonería y Alquimia",
+      "instructor": "Instructor: Josué Ormazával M:.M:.",
+      "image": "/images/cartel-1ersem-web.webp",
+      "imageAlt": "1er Seminario CIMAS",
+      "modulesLabel": "Módulos del Seminario:",
+      "modules": [
+        {
+          "label": "Módulo 1",
+          "href": "https://www.youtube.com/watch?v=q_3PM4I0f-c"
+        },
+        {
+          "label": "Módulo 2",
+          "href": "https://www.youtube.com/watch?v=3zZCdcHJ11Y"
+        },
+        {
+          "label": "Módulo 3",
+          "href": "https://www.youtube.com/watch?v=yrbICY2zh-c"
+        },
+        {
+          "label": "Módulo 4",
+          "href": "https://www.youtube.com/watch?v=1I4ZXDs-KuY"
+        }
+      ]
+    },
+    {
+      "kind": "seminar",
+      "title": "2do Seminario CIMAS – 2020",
+      "topic": "Método docente de la masonería",
+      "instructor": "Relator: V:.H:. Josué Albert Ormazábal Morales",
+      "image": "/images/cartel-2sem-web.webp",
+      "imageAlt": "2do Seminario CIMAS",
+      "modulesLabel": "Módulos del Seminario:",
+      "modules": [
+        {
+          "label": "Módulo 1",
+          "href": "https://www.youtube.com/watch?v=NKz9CAZ0EHo"
+        },
+        {
+          "label": "Módulo 2",
+          "href": "https://www.youtube.com/watch?v=Bc6kPLTvF_w"
+        },
+        {
+          "label": "Módulo 3",
+          "href": "https://www.youtube.com/watch?v=173-Q5k7iVs"
+        },
+        {
+          "label": "Módulo 4",
+          "href": "https://www.youtube.com/watch?v=qvX7-N4BtoA"
+        }
+      ]
+    }
+  ]
+}

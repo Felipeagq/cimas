@@ -1,0 +1,14 @@
+{
+  "heroImage": "/images/cimas-publicaciones-3m-hd-impresion-scaled.webp",
+  "heading": "Documentos y Artículos",
+  "items": [
+    {
+      "title": "Argamasa N1",
+      "description": "Documento oficial de publicación institucional disponible para lectura y descarga.",
+      "image": "/images/captura-de-pantalla-2026-09-18-a-las-11-18-58-p-m.webp",
+      "imageAlt": "Argamasa N1",
+      "href": "/documentos/argamasa-revista-n1.pdf",
+      "cta": "Descargar PDF"
+    }
+  ]
+}

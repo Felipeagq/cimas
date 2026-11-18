@@ -1,0 +1,108 @@
+{
+  "heroImage": "/images/coloquios.jpg",
+  "heading": "Nuestros Encuentros",
+  "cards": [
+    {
+      "slug": null,
+      "title": "12° reunión de CIMAS",
+      "date": "20 Sept 2024",
+      "categories": [
+        "Encuentros",
+        "Noticias"
+      ],
+      "image": "/images/captura-de-pantalla-2026-09-19-a-las-12-37-20-a-m.webp",
+      "imageAlt": "12° reunión de CIMAS",
+      "excerpt": "Encuentro institucional y asamblea general celebrada con la participación de las delegaciones y potencias afiliadas, fortaleciendo los lazos de fraternidad y la labor interamericana."
+    },
+    {
+      "slug": "10mo-encuentro-de-cimas",
+      "title": "10º Encuentro de C.•. I.•. MA.•. S.•.",
+      "date": "27 Sep 2019",
+      "categories": [
+        "Encuentros",
+        "Noticias"
+      ],
+      "image": "/images/x-1-400x250-1.jpg",
+      "imageAlt": "10º Encuentro",
+      "excerpt": "Cuenca – Ecuador Del 18 al 21 de Septiembre del 2019 CONFEDERACIÓN INTERAMERICANA DE MASONERÍA SIMBÓLICA Cuenca – Ecuador 2019 e:.v:. 31 C∴I∴MA∴S∴ CARTA DE CUENCA Xº ENCUENTRO DE LA CONFEDERACIÓN INTERAMERICANA DE LA MASONERÍA SIMBÓLICA CIMAS, CAPÍTULO CUENCA ..."
+    },
+    {
+      "slug": "dialogo-por-la-unidad-masonica-americana-cimas-comam",
+      "title": "Dialogo por la Unidad Masónica Americana CIMAS – COMAM",
+      "date": "26 Mar 2018",
+      "categories": [
+        "Encuentros",
+        "Noticias"
+      ],
+      "image": "/images/curitiba-2674721-1920-marcoseduardo-pixabay-500px-400x250-1.jpg",
+      "imageAlt": "Dialogo por la Unidad Masónica",
+      "excerpt": "Dialogo por la Unidad Masónica Americana CIMAS – COMAM 26 de Marzo del 2018"
+    },
+    {
+      "slug": "9no-encuentro-de-c-i-ma-s",
+      "title": "9no Encuentro de C.•. I.•. MA.•. S.•.",
+      "date": "27 Sep 2017",
+      "categories": [
+        "Encuentros"
+      ],
+      "image": "/images/villavicencio-extracto-400x225-1.jpg",
+      "imageAlt": "9no Encuentro",
+      "excerpt": "9no Encuentro de C.•. I.•. MA.•. S.•. Villavicencio – Colombia, Del 27 al 29 de Septiembre del 2017 Declaración de Villavicencio"
+    },
+    {
+      "slug": "8vo-encuentro-de-c-i-ma-s",
+      "title": "8vo Encuentro de C.•. I.•. MA.•. S.•.",
+      "date": "20 Ago 2015",
+      "categories": [
+        "Encuentros"
+      ],
+      "image": "/images/cajamarca-extracto-400x225-1.jpg",
+      "imageAlt": "8vo Encuentro",
+      "excerpt": "8vo Encuentro de C.•. I.•. MA.•. S.•. Cajamarca – Perú, Del 20 al 23 de Agosto del 2015 Declaración de Cajamarca"
+    },
+    {
+      "slug": "7mo-encuentro-de-c-i-ma-s",
+      "title": "7mo Encuentro de C.•. I.•. MA.•. S.•.",
+      "date": "26 Sep 2013",
+      "categories": [
+        "Encuentros"
+      ],
+      "image": "/images/mendoza-extracto-400x225-1.jpg",
+      "imageAlt": "7mo Encuentro",
+      "excerpt": "7mo Encuentro de C.•. I.•. MA.•. S.•. Mendoza – Argentina, Del 26 al 28 de Septiembre del 2013 Declaración de Mendoza para la paz"
+    },
+    {
+      "slug": "6to-encuentro-de-c-i-ma-s",
+      "title": "6to Encuentro de C.•. I.•. MA.•. S.•.",
+      "date": "22 Sep 2011",
+      "categories": [
+        "Encuentros"
+      ],
+      "image": "/images/6to-encuentro-cimas-extracto-400px-400x225-1.jpg",
+      "imageAlt": "6to Encuentro",
+      "excerpt": "6to Encuentro de C.•. I.•. MA.•. S.•. Quito (República de Ecuador), Del 22 al 25 de Septiembre del 2011 Declaración de Quito"
+    },
+    {
+      "slug": "5to-encuentro-de-c-i-ma-s",
+      "title": "5to Encuentro de C.•. I.•. MA.•. S.•.",
+      "date": "29 Oct 2009",
+      "categories": [
+        "Encuentros"
+      ],
+      "image": "/images/extracto-barranquilla-400x225-1.jpg",
+      "imageAlt": "5to Encuentro",
+      "excerpt": "5to Encuentro de C.•. I.•. MA.•. S.•. Barranquilla (República de Colombia), 29 de Octubre del 2009 Declaración de Barranquilla"
+    },
+    {
+      "slug": "4to-encuentro-de-c-i-ma-s",
+      "title": "4to Encuentro de C.•. I.•. MA.•. S.•.",
+      "date": "25 Sep 2007",
+      "categories": [
+        "Encuentros"
+      ],
+      "image": "/images/portada-4to-encuentro-02-400px-400x225-1.jpg",
+      "imageAlt": "4to Encuentro",
+      "excerpt": "4to Encuentro de C.•. I.•. MA.•. S.•. Santiago de Chile, 25 al 29 septiembre del 2007 Declaración de Santiago"
+    }
+  ]
+}

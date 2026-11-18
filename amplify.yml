@@ -1,0 +1,24 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Next.js 16 exige Node >= 20.9; fijamos la versión del .nvmrc
+        - nvm install
+        - nvm use
+        - node --version
+        - npm ci
+    build:
+      commands:
+        # Falla el despliegue si hay un asset truncado, una imagen sin registrar o un enlace roto
+        - npm run check:content
+        # `next build` con `output: "export"` genera el sitio estático en ./out
+        - npm run build
+  artifacts:
+    baseDirectory: out
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next/cache/**/*

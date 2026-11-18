@@ -1,0 +1,582 @@
+{
+  "heroImage": "/images/cimas-miembros-corregido-3m-hd-impresion-scaled.webp",
+  "obediencias": [
+    {
+      "title": "1) GRAN ORIENTE DE LA FRANCMASONERíA DE URUGUAY",
+      "officers": [
+        {
+          "role": "Gran Maestra",
+          "name": "Adriana Coletti"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Myriam Tardugno"
+        },
+        {
+          "role": "Presidente de Honor de CIMAS",
+          "name": "Elbio Laxalte Terra"
+        }
+      ]
+    },
+    {
+      "title": "2) GRAN ORIENTE ECUATORIANO DE LA NUEVA ERA",
+      "officers": [
+        {
+          "role": "Gran Maestra",
+          "name": "Fabiola Guzmán"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Juan Carlos Portilla"
+        },
+        {
+          "role": "Gran Diputada",
+          "name": "Laura Acuña"
+        },
+        {
+          "role": "Pasada Presidenta CIMAS",
+          "name": "Laura Acuña"
+        }
+      ]
+    },
+    {
+      "title": "3) GRAN ORIENTE DE CHILE",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Héctor Guillermo Díaz Montenegro"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Mónica Campos Gandur"
+        }
+      ]
+    },
+    {
+      "title": "4) FEDERACION COLOMBIANA DE LOGIAS MASÓNICAS",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Juan Carlos Ospina Acuña"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Iván herrera Michel"
+        },
+        {
+          "role": "Gran Secretario Poder Ejecutivo",
+          "name": "Fernando Navarro Herrera"
+        },
+        {
+          "role": "Presidenta CIMAS",
+          "name": "María Victoria Blanquicett Barros"
+        }
+      ]
+    },
+    {
+      "title": "5) GRAN ORIENTE FEDERAL DE LA REPÚBLICA ARGENTINA",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Carlos Alejandro Kotlik"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Jorge López Reynaudo"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Analia Lami"
+        }
+      ]
+    },
+    {
+      "title": "6) GRAN LOGIA CONSTITUCIONAL DEL PERÚ",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Francisco Llerena Boccolini"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Carlos Pacheco Girón"
+        },
+        {
+          "role": "Gran Canciller Europa/África",
+          "name": "Alain Fumaz"
+        }
+      ]
+    },
+    {
+      "title": "7) GRAN LOGIA ORIENTAL DEL PERÚ",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Heber Glori Tapia Galarza"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Luis Alberto Gonzaga Salazar"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Hugo Ortiz Diaz"
+        }
+      ]
+    },
+    {
+      "title": "8) GRAN LOGIA CENTRAL DE COLOMBIA",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Henry Polania Triviño"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Margarita Rojas Blancos"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Jorge Rivero Santos"
+        }
+      ]
+    },
+    {
+      "title": "9) GRAN LOGIA SOBERANA DE LIBRES Y AA. MASONES DE VENEZUELA",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Gonzalo Torrealba"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Jorge Arturo Pardo"
+        },
+        {
+          "role": "Secretario CIMAS",
+          "name": "Juan Carlos Jiménez León"
+        }
+      ]
+    },
+    {
+      "title": "10) THE MOST WORKSHIPFULL OMEGA GRANDE LODGE OF NEW YORK, A:.F:: and A:.M:. USA",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Louis Daly"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Abraham Thomas"
+        }
+      ]
+    },
+    {
+      "title": "11) GRAN LOGIA PATRIOTICA DEL PERU DEL A:.P:.R:.E:.deM:.",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Luis León Pizarro"
+        }
+      ]
+    },
+    {
+      "title": "12) GRAN ORIENTE UNIDO DE LA REPÚBLICA DE ECUADOR",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Santiago Sánchez Aguilar"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Adrián Andrade Lopez"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Gualtiero Valery"
+        }
+      ]
+    },
+    {
+      "title": "13) GRAN ORIENTE DE COLOMBIA",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Ángel David Roncancio"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Juan Sebástian Vegas"
+        }
+      ]
+    },
+    {
+      "title": "14) GRAN ORIENTE DE HIDALGO DE LA FRANCMASONERÍA UNIVERSAL – MEXICO",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Eduardo Habacuc López Acevedo"
+        }
+      ]
+    },
+    {
+      "title": "15) GRAN LOGIA DEL NORTE DE COLOMBIA",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Álvaro José Díaz Romero"
+        },
+        {
+          "role": "Diputado Gran Maestro",
+          "name": "Saúl Orozco Gallardo"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Boris Augusto Cabarcas Morales"
+        }
+      ]
+    },
+    {
+      "title": "16) GRAN LOGIA DEL AUSTRO ECUATORIANO",
+      "officers": [
+        {
+          "role": "Gran Maestra",
+          "name": "Beatriz Rodas"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Felipe Albornoz"
+        },
+        {
+          "role": "Gran Diputado",
+          "name": "Miguel Castro"
+        }
+      ]
+    },
+    {
+      "title": "17) GRAN LOGIA MIXTA DE LL:. AA:. MM:. DE HABLA HISPANA DE EUA",
+      "officers": [
+        {
+          "role": "Gran Maestra",
+          "name": "Gloria Sabido"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Benjamín Sabido"
+        }
+      ]
+    },
+    {
+      "title": "18) GRAN ORIENTE NACIONAL DE PUERTO RICO",
+      "officers": [
+        {
+          "role": "Gran Maestra",
+          "name": "Elsie Torres Negrón"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Trilce Torres López"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Enrique Lamoutt Medina"
+        }
+      ]
+    },
+    {
+      "title": "19) GRAN LOGIA DE COCHABAMBA – BOLIVIA",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Orlando Aguila Soto"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Mario Cáceres Agreda"
+        },
+        {
+          "role": "Oficial a Cargo",
+          "name": "José Mercado Cadima"
+        }
+      ]
+    },
+    {
+      "title": "20) GRAN LOGIA SURAMERICANA DEL ECUADOR",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Santiago Zurita"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Ana Paulina Coronado"
+        }
+      ]
+    },
+    {
+      "title": "21) GRAN LOGIA DEL NORTE DEL PERÚ",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Tito Diomedes Caballero Vasquez"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Pedro Andrés Zavaleta Callegari"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Hunter Samame Gallo"
+        }
+      ]
+    },
+    {
+      "title": "22) GRANDE LOJA UNIDA DO PARANÁ – BRASIL",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Reginaldo Celso Guidolin"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Marlon Martins"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Paulo Sergio Hortz Vechi"
+        }
+      ]
+    },
+    {
+      "title": "23) GRAN ORIENTE SIMBÓLICO DEL PERÚ",
+      "officers": [
+        {
+          "role": "Gran Maestro",
+          "name": "Mario Gamboa Briceño"
+        },
+        {
+          "role": "Gran Canciller",
+          "name": "Angela Mosqueira Castañeda"
+        },
+        {
+          "role": "Gran Secretario",
+          "name": "Alberto Vasquez Leiva"
+        },
+        {
+          "role": "Pasado Presidenta CIMAS",
+          "name": "Walter Vargas"
+        }
+      ]
+    }
+  ],
+  "autoridades": {
+    "heading": "Autoridades",
+    "text": "Los poderes de la CIMAS son la Asamblea General, compuesta por representantes de todos los Miembros afiliados; el Consejo Supervisor, compuesto por los representantes de las Potencias Fundadoras; y el Directorio Ejecutivo, compuesto por un Presidente, un Vice-Presidente, dos Secretarios y un Vocal, electos por la Asamblea General. El Directorio electo entra inmediatamente en funciones.",
+    "motto": [
+      "Confederación Interamericana de Masonería Simbólica",
+      "Libertad – Igualdad – Fraternidad"
+    ]
+  },
+  "directorio": {
+    "title": "Directorio 2024 – 2026",
+    "subtitle": "Elegido en la XII Asamblea de CIMAS en Montevideo (Uruguay)",
+    "members": [
+      {
+        "role": "Presidenta",
+        "name": "Q.·.H.·. María Victoria Blanquicett",
+        "country": "Colombia",
+        "email": "presidente@cimas-masoneria.com"
+      },
+      {
+        "role": "Vicepresidente",
+        "name": "Q.·.H.·. Raúl Bula",
+        "country": "Uruguay",
+        "email": "vicepresidencia@cimas-masoneria.com"
+      },
+      {
+        "role": "1er. Secretario",
+        "name": "Q.·.H.·. Juan Carlos Jiménez León",
+        "country": "Venezuela",
+        "email": "secretario@cimas-masoneria.com"
+      },
+      {
+        "role": "2do. Secretario",
+        "name": "Q.·.H.·. Andy Villar",
+        "country": "Colombia",
+        "email": "2secretario@cimas-masoneria.com"
+      },
+      {
+        "role": "Vocal",
+        "name": "Q.·.H.·. Patricio Valdiviezo",
+        "country": "Ecuador",
+        "email": "vocal@cimas-masoneria.com"
+      },
+      {
+        "role": "Presidente de Honor",
+        "name": "Q.·.H.·. Elbio Laxare Terra",
+        "country": "Uruguay",
+        "email": "elaxalte@gmail.com"
+      }
+    ]
+  },
+  "presidentes": [
+    {
+      "period": "2002 - 2003",
+      "name": "IL∴ H∴ VERA FACCIOLLO"
+    },
+    {
+      "period": "2003 - 2005",
+      "name": "IL∴ H∴ VERA FACCIOLLO"
+    },
+    {
+      "period": "2005 - 2007",
+      "name": "IL∴ H∴ ELBIO LAXALTE TERRA"
+    },
+    {
+      "period": "2007 - 2009",
+      "name": "IL∴ H∴ ELBIO LAXALTE TERRA"
+    },
+    {
+      "period": "2009 - 2011",
+      "name": "IL∴ H∴ ELBIO LAXALTE TERRA"
+    },
+    {
+      "period": "2011 - 2013",
+      "name": "IL∴ H∴ ELBIO LAXALTE TERRA"
+    },
+    {
+      "period": "2013 - 2015",
+      "name": "IL∴ H∴ DANIEL DE LUCÍA"
+    },
+    {
+      "period": "2015 - 2017",
+      "name": "IL∴ H∴ WALTER VARGAS PORTOCARRERO"
+    },
+    {
+      "period": "2017 - 2019",
+      "name": "I∴ P∴ H∴ LAURA ACUÑA DE NÁJERA"
+    },
+    {
+      "period": "2019 - 2021",
+      "name": "I∴ P∴ H∴ HÉCTOR DÍAZ MONTENEGRO"
+    },
+    {
+      "period": "2021 - 2024",
+      "name": "I∴ P∴ H∴ RAFAEL ENRIQUE FONSECA CARDONA"
+    },
+    {
+      "period": "2024 - 2026",
+      "name": "I.·.P.·.HNA.·. MA. VICTORIA BLANQUICETT"
+    }
+  ],
+  "miembrosHonor": [
+    "GRAN ORIENTE DE FRANCIA",
+    "GRAN LOGIA FEMENINA DE RUMANIA"
+  ],
+  "consejoSupervisor": [
+    {
+      "name": "1) GRANDE LOJA ARQUITETOS DE AQUARIO – GLADA / BRASIL",
+      "representative": "Il∴ Hna∴ Vera FACCIOLLO"
+    },
+    {
+      "name": "2) GRAN ORIENTE DE LA FRANC-MASONERÍA DEL URUGUAY – GOFMU / URUGUAY",
+      "representative": "Il∴ Hna∴ Myriam TARDUGNO GARBARINO"
+    },
+    {
+      "name": "3) GRAN ORIENTE CENTRAL DE LA REPUBLICA ARENTINA – GOCRA / ARGENTINA",
+      "representative": "Il∴ H∴ Enrique MORRA"
+    },
+    {
+      "name": "4) GRANDE LOJA FEMININA DO BRASIL (de São Paulo)",
+      "representative": "Il∴ Hna∴ Izilda Aparecida DE CARVALHO FERREIRA"
+    },
+    {
+      "name": "5) GRAN LOGIA FEMENINA DE LA REPUBLICA ARGENTINA DEL ANTIGUO Y PRIMITIVO RITO DE MEMPHIS Y MIZRAIM",
+      "representative": "Il∴ Hna∴ Carmen DAESTER"
+    },
+    {
+      "name": "6) GRAN ORIENTE ECUATORIANO NUEVA ERA – GROENE / ECUADOR",
+      "representative": "Il∴ Hna∴ Marina MUÑOZ de MEDINA"
+    },
+    {
+      "name": "7) GRAN ORIENTE MASÓNICO CHILENO – GOMCH / CHILE",
+      "representative": "Il∴ H∴ Héctor DÍAZ MONTENEGRO"
+    }
+  ],
+  "galeria": [
+    {
+      "image": "/images/vera-facciollo.jpg",
+      "alt": "Vera Facciollo",
+      "name": "I.·.P.·.H.·. Vera Facciollo",
+      "role": [
+        "Primera Presidenta de CIMAS"
+      ],
+      "detail": "Gran Maestra de la GLADA Gran Logia de Acuarios de Brasil (A esa fecha)"
+    },
+    {
+      "image": "/images/elbio-laxalte.jpg",
+      "alt": "Elbio Laxalte Terra",
+      "name": "I.·.P.·.H.·. Elbio Laxalte Terra",
+      "role": [
+        "Segundo Presidente de CIMAS",
+        "(Presidió tres períodos)"
+      ],
+      "detail": "Gran Maestro GOFMU Gran Oriente de la Franc–Masonería del Uruguay (A esa fecha)"
+    },
+    {
+      "image": "/images/daniel-de-lucia.jpg",
+      "alt": "Daniel de Lucia",
+      "name": "I.·.P.·.H.·. Daniel de Lucia",
+      "role": [
+        "Tercer Presidente de CIMAS"
+      ],
+      "detail": "Gran Maestro del Gran Oriente Federal de la Republica de Argentina (A esa fecha)"
+    },
+    {
+      "image": "/images/walter-vargas-portocarrero.jpg",
+      "alt": "Walter Vargas Portocarrero",
+      "name": "I.·.P.·.H.·. Walter Vargas Portocarrero",
+      "role": [
+        "Cuarto Presidente de CIMAS"
+      ],
+      "detail": "Gran Maestro de la Gran Logia Oriental del Perú (A esa fecha)"
+    },
+    {
+      "image": "/images/laura-acuna-de-najera.jpg",
+      "alt": "Laura Acuña de Nájera",
+      "name": "I.·.P.·.H.·. Laura Acuña de Nájera",
+      "role": [
+        "Quinta Presidenta de CIMAS"
+      ],
+      "detail": "Pas Gran Maestra y Pas S:.G:.Comendadora del GROENE (Gran Oriente Ecuatoriano Nueva Era)"
+    },
+    {
+      "image": "/images/foto-final-tito.jpg",
+      "alt": "Héctor Díaz Montenegro",
+      "name": "I.·.P.·.H.·. Héctor Díaz Montenegro",
+      "role": [
+        "Sexto Presidente de CIMAS"
+      ],
+      "detail": "Gran Maestro Gran Oriente de Chile GODCH"
+    },
+    {
+      "image": "/images/rafael-fonseca.jpg",
+      "alt": "Rafael Fonseca Cardona",
+      "name": "I.·.P.·.H.·. Rafael Fonseca Cardona",
+      "role": [
+        "Séptimo Presidente de CIMAS"
+      ],
+      "detail": "Gran Maestro - Gran Logia Central de Colombia"
+    },
+    {
+      "image": "/images/whatsapp-image-2026-09-18-at-23-47-21.jpg",
+      "alt": "Ma. Victoria Blanquicett",
+      "zoom": true,
+      "name": "I.·.P.·.Hna.·. Ma. Victoria Blanquicett",
+      "role": [
+        "Octava Presidenta de CIMAS"
+      ],
+      "detail": "Past Gran Maestra - Federación Colombiana de Logias Masónicas"
+    }
+  ]
+}
