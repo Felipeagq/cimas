@@ -12,10 +12,10 @@ frontend:
       commands:
         # Falla el despliegue si hay un asset truncado, una imagen sin registrar o un enlace roto
         - npm run check:content
-        # `next build` con `output: "export"` genera el sitio estático en ./out
+        # `next build` genera `.next`, que es lo que Amplify Hosting (WEB_COMPUTE) publica
         - npm run build
   artifacts:
-    baseDirectory: out
+    baseDirectory: .next
     files:
       - "**/*"
   cache:

@@ -4,13 +4,18 @@ Rediseño del sitio [cimas-masoneria.com](https://cimas-masoneria.com) (antes Wo
 
 El contenido, las URLs y la estructura del sitio original se conservaron: la portada, 9 páginas y 19 artículos en `/<slug>/`.
 
-## Por qué exportación estática
+## Cómo se despliega (build estándar de Next.js)
 
-El sitio es 100 % contenido: no hay base de datos ni páginas que dependan de la petición. Se usa `output: "export"` (`next.config.ts`), que genera HTML/CSS/JS en `out/`, y Amplify lo sirve como sitio estático.
+El sitio es 100 % contenido: todas las páginas se pre-generan en el build (`next build` las marca `○`/`●`, ninguna es dinámica) y no hay base de datos. Aun así **no es una exportación estática** (`output: "export"`): es el build normal de Next.js, que genera `.next`. Es lo que espera Amplify Hosting cuando su consola detecta Next.js y crea la app como SSR (plataforma `WEB_COMPUTE`), de modo que el despliegue **no requiere cambiar ninguna configuración de la app en Amplify**.
 
-Esto también esquiva una limitación: la documentación de Amplify solo declara SSR gestionado hasta Next.js 15 ([fuente](https://docs.aws.amazon.com/amplify/latest/userguide/ssr-amplify-support.html)), y este proyecto usa la 16.
+Todo lo que antes había que configurar a mano en la consola vive ahora en el repo:
 
-Consecuencias: no hay optimizador de imágenes en runtime (un *loader* propio elige entre variantes preparadas de antemano, ver *Imágenes*) ni rutas de API; el formulario de contacto funciona sin servidor (ver *Variables de entorno*).
+- `amplify.yml`: `baseDirectory: .next`.
+- `next.config.ts`: `trailingSlash` (`/miembros` redirige a `/miembros/`) y las redirecciones de las URLs antiguas del WordPress (`/wp-content/uploads/…pdf` → `/documentos/…`).
+- `customHttp.yml`: cabeceras de seguridad (Amplify lo lee solo).
+- 404: la página `not-found` de Next.js.
+
+> **Next.js 16 no está en la lista oficial de Amplify** (soporta 12–15, [fuente](https://docs.aws.amazon.com/amplify/latest/userguide/ssr-amplify-support.html)). Este sitio no usa lo que Amplify indica como no soportado (streaming, ISR bajo demanda, optimizador de imágenes: las imágenes usan un *loader* propio, ver *Imágenes*) y se probó en local con `next build` + `next start`, pero **no se ha podido probar en Amplify**. Si el primer despliegue fallara por la versión, la salida es bajar a Next.js 15.
 
 ## Estilos
 
@@ -21,7 +26,8 @@ Tailwind CSS 4 se integra con **`@tailwindcss/postcss`** (`postcss.config.mjs`),
 ```bash
 npm install
 npm run dev              # desarrollo en http://localhost:3000
-npm run build            # genera el sitio estático en ./out
+npm run build            # build de producción (.next)
+npm run start            # sirve el build de producción en http://localhost:3000 (igual que Amplify)
 npm run lint
 npm run typecheck
 npm run check:content    # integridad de assets, enlaces y manifiesto (corre también en Amplify)
@@ -60,20 +66,14 @@ El campo `body` de los textos largos es HTML semántico con un vocabulario peque
 ## Despliegue en AWS Amplify
 
 1. Tener el repositorio en GitHub/GitLab/Bitbucket/CodeCommit.
-2. En la consola de Amplify: **Create new app → Host web app**, elegir el repo y la rama. Amplify toma `amplify.yml` (instala con `npm ci`, ejecuta `check:content` y `build`, y publica `out/`).
-3. **Plataforma estática (paso obligatorio).** El proyecto es una exportación estática (`output: "export"`), pero la consola de Amplify detecta Next.js y crea la app como SSR (`WEB_COMPUTE`). Síntoma: el build compila y genera las 34 páginas, y falla al final con `CustomerError: Can't find required-server-files.json in build output directory`, porque Amplify busca los archivos de servidor que una exportación estática no genera. Solución: cambiar la plataforma a estática y volver a desplegar.
+2. En la consola de Amplify: **Create new app → Host web app**, elegir el repo y la rama. Amplify detecta Next.js y toma `amplify.yml` (instala con `npm ci`, ejecuta `check:content` y `build`, y publica `.next`). No hay que tocar nada más: ni plataforma, ni cabeceras, ni redirecciones.
+3. Conectar el dominio `cimas-masoneria.com` en **Hosting → Custom domains**.
 
-   ```bash
-   aws amplify get-app --app-id <ID> --region <REGION> --query app.platform     # WEB_COMPUTE = el problema
-   aws amplify update-app --app-id <ID> --region <REGION> --platform WEB
-   ```
+Si la app ya existía y el build falla con `Can't find required-server-files.json in build output directory`, es que el repo todavía publicaba `out/` (versión anterior): basta con tener esta versión de `amplify.yml` (`baseDirectory: .next`) y volver a desplegar.
 
-   El `<ID>` aparece en el log de build (ruta `/amplify/<ID>/<rama>/`) y en la consola, en *App settings → General*. Después, en la consola, **Redeploy this version** del último build. La referencia de la API de AWS indica que una app SSG de Next 14+ debe usar `WEB_COMPUTE`; eso aplica a builds con `next build` normal, que sí generan archivos de servidor. Con `output: "export"` no existen, por lo que `WEB` con `out/` es lo coherente (no se pudo probar sin acceso a la cuenta). Si aun así fallara, la alternativa es quitar `output: "export"` y desplegar como SSR (`WEB_COMPUTE`, `baseDirectory: .next`), pero Amplify solo documenta SSR administrado hasta Next 15.
-4. **Hosting → Custom headers**: Amplify lee `customHttp.yml` de la raíz (seguridad y caché de `/_next/static`).
-5. **Hosting → Rewrites and redirects → Open text editor**: pegar el contenido de `amplify-redirects.json`. Redirige las URLs antiguas de PDF/ZIP de WordPress (`/wp-content/uploads/...`, `/PDF/...`) a `/documentos/...` y define la página 404.
-6. Conectar el dominio `cimas-masoneria.com` en **Hosting → Custom domains**.
+**A verificar tras el primer despliegue** (probado en local con `next start`, no en Amplify): que `/miembros` redirija a `/miembros/`, que `/wp-content/uploads/2026/09/Programa-CIMAS-FASCREAA-CCJEHA-ES.pdf` redirija a `/documentos/…`, que una URL inexistente muestre la 404 con estado 404 y que se apliquen las cabeceras de `customHttp.yml`.
 
-**A verificar tras el primer despliegue** (no se pueden comprobar sin Amplify): que `/miembros` sin barra final resuelva (si da 404, agregar una redirección `/miembros` → `/miembros/` y probar que no genere un bucle); que se apliquen las cabeceras de `customHttp.yml`; y que la 404 personalizada funcione.
+**Alternativa estática** (si se prefiere servir `out/` desde el CDN, sin servidor): agregar `output: "export"` a `next.config.ts`, poner `baseDirectory: out`, cambiar la plataforma de la app con `aws amplify update-app --app-id <ID> --platform WEB` y volver a pegar las redirecciones en la consola (en este modo `redirects()` no se aplica). Requiere esos cambios en Amplify.
 
 ## Variables de entorno (opcionales)
 
