@@ -59,9 +59,16 @@ El campo `body` de los textos largos es HTML semántico con un vocabulario peque
 
 ## Despliegue en AWS Amplify
 
-1. Subir el repositorio a GitHub/GitLab/Bitbucket/CodeCommit (este directorio aún no es un repo git).
+1. Tener el repositorio en GitHub/GitLab/Bitbucket/CodeCommit.
 2. En la consola de Amplify: **Create new app → Host web app**, elegir el repo y la rama. Amplify toma `amplify.yml` (instala con `npm ci`, ejecuta `check:content` y `build`, y publica `out/`).
-3. Si Amplify detecta la app como "Next.js – SSR" (`WEB_COMPUTE`) y falla buscando `.next`, cambiar la plataforma a estática: `aws amplify update-app --app-id <ID> --platform WEB`.
+3. **Plataforma estática (paso obligatorio).** El proyecto es una exportación estática (`output: "export"`), pero la consola de Amplify detecta Next.js y crea la app como SSR (`WEB_COMPUTE`). Síntoma: el build compila y genera las 34 páginas, y falla al final con `CustomerError: Can't find required-server-files.json in build output directory`, porque Amplify busca los archivos de servidor que una exportación estática no genera. Solución: cambiar la plataforma a estática y volver a desplegar.
+
+   ```bash
+   aws amplify get-app --app-id <ID> --region <REGION> --query app.platform     # WEB_COMPUTE = el problema
+   aws amplify update-app --app-id <ID> --region <REGION> --platform WEB
+   ```
+
+   El `<ID>` aparece en el log de build (ruta `/amplify/<ID>/<rama>/`) y en la consola, en *App settings → General*. Después, en la consola, **Redeploy this version** del último build. La referencia de la API de AWS indica que una app SSG de Next 14+ debe usar `WEB_COMPUTE`; eso aplica a builds con `next build` normal, que sí generan archivos de servidor. Con `output: "export"` no existen, por lo que `WEB` con `out/` es lo coherente (no se pudo probar sin acceso a la cuenta). Si aun así fallara, la alternativa es quitar `output: "export"` y desplegar como SSR (`WEB_COMPUTE`, `baseDirectory: .next`), pero Amplify solo documenta SSR administrado hasta Next 15.
 4. **Hosting → Custom headers**: Amplify lee `customHttp.yml` de la raíz (seguridad y caché de `/_next/static`).
 5. **Hosting → Rewrites and redirects → Open text editor**: pegar el contenido de `amplify-redirects.json`. Redirige las URLs antiguas de PDF/ZIP de WordPress (`/wp-content/uploads/...`, `/PDF/...`) a `/documentos/...` y define la página 404.
 6. Conectar el dominio `cimas-masoneria.com` en **Hosting → Custom domains**.
